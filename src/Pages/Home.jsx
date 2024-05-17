@@ -26,7 +26,7 @@ export function Home(){
     async function getData(){
         const response = await api.get("?results=1&nat=BR")
         setData(response.data.results)
-        console.log(data.name)
+        console.log(data)
     }
 
     const currentDate = new Date();

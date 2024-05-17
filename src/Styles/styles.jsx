@@ -264,6 +264,38 @@ const Styles = StyleSheet.create({
         paddingLeft:10,
         paddingTop:155,
     },
+    FotoPerfil:{
+        width:200,
+        height:200,
+        borderWidth:2,
+        borderColor:"#ffbc43",
+        borderRadius:100,
+        alignSelf:"center",
+        
+        
+    },
+    name:{
+        fontSize:29,
+        textTransform:'uppercase',
+        marginBottom:10,
+        textAlign:'center',
+        fontStyle:'italic',
+        fontWeight:'bold',
+        marginTop:55
+    },
+    label:{
+        fontWeight:"bold",
+        fontSize:20,
+    },
+    item:{
+        fontWeight:"400",
+        fontSize:20,
+        fontStyle:'italic',
+        textAlign:'center',
+    },
+    viewItens:{
+        alignSelf:"center", width:'70%', height:150
+    }
 })
 
 export {Styles}
